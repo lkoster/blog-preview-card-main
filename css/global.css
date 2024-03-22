@@ -1,0 +1,44 @@
+/* CSS Set up */
+
+* {
+  /* Global reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* To change rem to 10base */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  /* Centers the card vertically in the middle of the page */
+  min-height: 100vh;
+
+  /* To reset base font size to 16px */
+  font-size: 1.6rem;
+
+  /* To align container in the middle of the screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* Main Styles - UPDATE VALUES  */
+  font-family: "Figtree", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  color: MAIN COLOR;
+  background-color: var(--primary-yellow);
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
+
+/* For Link Accessibility */
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem #000;
+  /* change the color here....^ */
+}
