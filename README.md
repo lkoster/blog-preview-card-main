@@ -19,6 +19,8 @@ Users should be able to:
 
 ### Screenshot
 
+![](assets/images/screenshot.png)
+
 ### Links
 
 - Solution URL: [Code](https://github.com/lkoster/blog-preview-card-main)
